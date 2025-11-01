@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+}
+        .container{
+            background-color: aqua;
+            border: 3px solid red;
+            padding-bottom: 10px;
+              padding-top: 1px;
+              padding: 23px 32px 10px 5px; 
+              /* padding (or margin) t b l r  */
+              /* padding top/bottom and (left/right) equal */
+              border-radius: 20px;
+              width: 150px;
+              height: 250px;
+             
+              /* adjusts the padding acc to the user; */
+
+            margin: 35px 30px;
+
+                        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, molestias asperiores. Minus eligendi, quasi quo officia ipsum suscipit aut molestiae minima non similique ad voluptates voluptatem officiis nulla facere cupiditate.</p>
+    </div>    
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, molestias asperiores. Minus eligendi, quasi quo officia ipsum suscipit aut molestiae minima non similique ad voluptates voluptatem officiis nulla facere cupiditate.</p>
+    </div>    
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, molestias asperiores. Minus eligendi, quasi quo officia ipsum suscipit aut molestiae minima non similique ad voluptates voluptatem officiis nulla facere cupiditate.</p>
+
+    </div>
+</body>
+</html>
